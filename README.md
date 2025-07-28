@@ -39,7 +39,7 @@ Each category contains 4 carefully selected high-quality images.
 
 ## 📷 Live Preview
 
-> Coming Soon: [https://your-shivamprajapaticodes.github.io/codealpha-image-gallery](https://your-shivamprajapaticodes.github.io/codealpha-image-gallery)
+> Coming Soon: [https://shivamprajapaticodes.github.io/codealpha-image-gallery/](https://shivamprajapaticodes.github.io/codealpha-image-gallery/)
 
 ---
 
