@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery | CodeAlpha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🖼️ Image Gallery</h1>
+    <div class="filters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="people">People</button>
+      <button class="filter-btn" data-category="art">Art</button>
+      <button class="filter-btn" data-category="nature">Nature</button>
+      <button class="filter-btn" data-category="city">City</button>
+      <button class="filter-btn" data-category="technology">Technology</button>
+    </div>
+  </header>
+
+  <main class="gallery">
+    <!-- Example Images -->
+    <img src="images/people (1).jpg" data-category="people" alt="People 1" />
+    <img src="images/people (2).jpg" data-category="people" alt="People 2" />
+    <img src="images/people (3).jpg" data-category="people" alt="People 3" />
+    <img src="images/people (4).jpg" data-category="people" alt="People 4" />
+    
+    <img src="images/art (1).jpg" data-category="art" alt="Art 1" />
+    <img src="images/art (2).jpg" data-category="art" alt="Art 2" />
+    <img src="images/art (3).jpg" data-category="art" alt="Art 3" />
+    <img src="images/art (4).jpg" data-category="art" alt="Art 4" />
+    
+    <img src="images/nature (1).jpg" data-category="nature" alt="Nature 1" />
+    <img src="images/nature (2).jpg" data-category="nature" alt="Nature 2" />
+    <img src="images/nature (3).jpg" data-category="nature" alt="Nature 3" />
+    <img src="images/nature (4).jpg" data-category="nature" alt="Nature 4" />
+    
+    <img src="images/city (1).jpg"city" alt="City 1" />
+    <img src="images/city (2).jpg" data-category="city" alt="City 2" />
+    <img src="images/city (3).jpg" data-category="city" alt="City 3" />
+    <img src="images/city (4).jpg" data-category="city" alt="City 4" />
+    
+    <img src="images/technology (1).jpg" data-category="technology" alt="Tech 1" />
+    <img src="images/technology (2).jpg" data-category="technology" alt="Tech 2" />
+    <img src="images/technology (3).jpg" data-category="technology" alt="Tech 3" />
+    <img src="images/technology (4).jpg" data-category="technology" alt="Tech 4" />
+  </main>
+
+  <!-- Lightbox View -->
+  <div class="lightbox" id="lightbox">
+    <span class="close-btn" id="closeLightbox">&times;</span>
+    <span class="nav prev" id="prevBtn">&#10094;</span>
+    <img id="lightboxImage" src="" alt="Preview" />
+    <span class="nav next" id="nextBtn">&#10095;</span>
+  </div>
+
+  <button class="back-to-top" id="backToTop">&#8679;</button>
+  <script src="script.js"></script>
+</body>
+</html>
